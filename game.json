@@ -1,0 +1,611 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"cursor7": {
+			"type": "audio",
+			"path": "audio/se/cursor7",
+			"systemId": "sound",
+			"duration": 157
+		},
+		"cursor9": {
+			"type": "audio",
+			"path": "audio/se/cursor9",
+			"systemId": "sound",
+			"duration": 141
+		},
+		"decision4": {
+			"type": "audio",
+			"path": "audio/se/decision4",
+			"systemId": "sound",
+			"duration": 2880
+		},
+		"decision5": {
+			"type": "audio",
+			"path": "audio/se/decision5",
+			"systemId": "sound",
+			"duration": 2114
+		},
+		"decision8": {
+			"type": "audio",
+			"path": "audio/se/decision8",
+			"systemId": "sound",
+			"duration": 3045
+		},
+		"money_drop1": {
+			"type": "audio",
+			"path": "audio/se/money_drop1",
+			"systemId": "sound",
+			"duration": 1043
+		},
+		"money_drop2": {
+			"type": "audio",
+			"path": "audio/se/money_drop2",
+			"systemId": "sound",
+			"duration": 1378
+		},
+		"wallet1": {
+			"type": "audio",
+			"path": "audio/se/wallet1",
+			"systemId": "sound",
+			"duration": 488
+		},
+		"wallet_close1": {
+			"type": "audio",
+			"path": "audio/se/wallet_close1",
+			"systemId": "sound",
+			"duration": 163
+		},
+		"warning2": {
+			"type": "audio",
+			"path": "audio/se/warning2",
+			"systemId": "sound",
+			"duration": 1118
+		},
+		"bet_down": {
+			"type": "image",
+			"width": 57,
+			"height": 62,
+			"path": "image/button/bet_down.png"
+		},
+		"bet_slider": {
+			"type": "image",
+			"width": 42,
+			"height": 52,
+			"path": "image/button/bet_slider.png"
+		},
+		"bet_up": {
+			"type": "image",
+			"width": 51,
+			"height": 62,
+			"path": "image/button/bet_up.png"
+		},
+		"bet_value_bar": {
+			"type": "image",
+			"width": 672,
+			"height": 25,
+			"path": "image/button/bet_value_bar.png"
+		},
+		"button": {
+			"type": "image",
+			"width": 317,
+			"height": 125,
+			"path": "image/button/button.png"
+		},
+		"chip": {
+			"type": "image",
+			"width": 80,
+			"height": 80,
+			"path": "image/material/chip.png"
+		},
+		"dealer": {
+			"type": "image",
+			"width": 100,
+			"height": 100,
+			"path": "image/material/dealer.png"
+		},
+		"poker_table": {
+			"type": "image",
+			"width": 1650,
+			"height": 901,
+			"path": "image/material/poker_table.png"
+		},
+		"c01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c01.png"
+		},
+		"c02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c02.png"
+		},
+		"c03": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c03.png"
+		},
+		"c04": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c04.png"
+		},
+		"c05": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c05.png"
+		},
+		"c06": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c06.png"
+		},
+		"c07": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c07.png"
+		},
+		"c08": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c08.png"
+		},
+		"c09": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c09.png"
+		},
+		"c10": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c10.png"
+		},
+		"c11": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c11.png"
+		},
+		"c12": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c12.png"
+		},
+		"c13": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c13.png"
+		},
+		"d01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d01.png"
+		},
+		"d02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d02.png"
+		},
+		"d03": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d03.png"
+		},
+		"d04": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d04.png"
+		},
+		"d05": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d05.png"
+		},
+		"d06": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d06.png"
+		},
+		"d07": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d07.png"
+		},
+		"d08": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d08.png"
+		},
+		"d09": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d09.png"
+		},
+		"d10": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d10.png"
+		},
+		"d11": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d11.png"
+		},
+		"d12": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d12.png"
+		},
+		"d13": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d13.png"
+		},
+		"h01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h01.png"
+		},
+		"h02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h02.png"
+		},
+		"h03": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h03.png"
+		},
+		"h04": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h04.png"
+		},
+		"h05": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h05.png"
+		},
+		"h06": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h06.png"
+		},
+		"h07": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h07.png"
+		},
+		"h08": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h08.png"
+		},
+		"h09": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h09.png"
+		},
+		"h10": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h10.png"
+		},
+		"h11": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h11.png"
+		},
+		"h12": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h12.png"
+		},
+		"h13": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h13.png"
+		},
+		"s01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s01.png"
+		},
+		"s02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s02.png"
+		},
+		"s03": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s03.png"
+		},
+		"s04": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s04.png"
+		},
+		"s05": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s05.png"
+		},
+		"s06": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s06.png"
+		},
+		"s07": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s07.png"
+		},
+		"s08": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s08.png"
+		},
+		"s09": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s09.png"
+		},
+		"s10": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s10.png"
+		},
+		"s11": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s11.png"
+		},
+		"s12": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s12.png"
+		},
+		"s13": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s13.png"
+		},
+		"z01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/z01.png"
+		},
+		"z02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/z02.png"
+		},
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"gameSceneHandler": {
+			"type": "script",
+			"path": "script/handler/gameSceneHandler.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"actionModel": {
+			"type": "script",
+			"path": "script/model/actionModel.js",
+			"global": true
+		},
+		"boardModel": {
+			"type": "script",
+			"path": "script/model/boardModel.js",
+			"global": true
+		},
+		"cardModel": {
+			"type": "script",
+			"path": "script/model/cardModel.js",
+			"global": true
+		},
+		"dealerModel": {
+			"type": "script",
+			"path": "script/model/dealerModel.js",
+			"global": true
+		},
+		"oneGameResultModel": {
+			"type": "script",
+			"path": "script/model/oneGameResultModel.js",
+			"global": true
+		},
+		"playerModel": {
+			"type": "script",
+			"path": "script/model/playerModel.js",
+			"global": true
+		},
+		"playerResultModel": {
+			"type": "script",
+			"path": "script/model/playerResultModel.js",
+			"global": true
+		},
+		"rankModel": {
+			"type": "script",
+			"path": "script/model/rankModel.js",
+			"global": true
+		},
+		"structureModel": {
+			"type": "script",
+			"path": "script/model/structureModel.js",
+			"global": true
+		},
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
+		},
+		"baseScene": {
+			"type": "script",
+			"path": "script/scene/baseScene.js",
+			"global": true
+		},
+		"gameScene": {
+			"type": "script",
+			"path": "script/scene/gameScene.js",
+			"global": true
+		},
+		"recruitmentScene": {
+			"type": "script",
+			"path": "script/scene/recruitmentScene.js",
+			"global": true
+		},
+		"resultScene": {
+			"type": "script",
+			"path": "script/scene/resultScene.js",
+			"global": true
+		},
+		"ruleScene": {
+			"type": "script",
+			"path": "script/scene/ruleScene.js",
+			"global": true
+		},
+		"titleScene": {
+			"type": "script",
+			"path": "script/scene/titleScene.js",
+			"global": true
+		},
+		"gameSceneService": {
+			"type": "script",
+			"path": "script/service/gameSceneService.js",
+			"global": true
+		},
+		"assetIds": {
+			"type": "script",
+			"path": "script/type/assetIds.js",
+			"global": true
+		},
+		"gameMode": {
+			"type": "script",
+			"path": "script/type/gameMode.js",
+			"global": true
+		},
+		"status": {
+			"type": "script",
+			"path": "script/type/status.js",
+			"global": true
+		},
+		"rankUtil": {
+			"type": "script",
+			"path": "script/util/rankUtil.js",
+			"global": true
+		},
+		"assetIdsConfig": {
+			"type": "text",
+			"path": "text/assetIdsConfig.json",
+			"global": true
+		},
+		"gameSceneConfig": {
+			"type": "text",
+			"path": "text/gameSceneConfig.json",
+			"global": true
+		},
+		"structuresConfig": {
+			"type": "text",
+			"path": "text/structuresConfig.json"
+		},
+		"aiPlayerModel": {
+			"type": "script",
+			"path": "script/model/aiPlayerModel.js",
+			"global": true
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-label": "node_modules/@akashic-extension/akashic-label/lib/index.js",
+		"@akashic-extension/akashic-hover-plugin": "node_modules/@akashic-extension/akashic-hover-plugin/lib/index.js",
+		"@akashic-extension/resolve-player-info": "node_modules/@akashic-extension/resolve-player-info/lib/index.js",
+		"@akc29/akashictool4multi": "node_modules/@akc29/akashictool4multi/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"niconico": {
+			"supportedModes": [
+				"multi"
+			]
+		},
+		"external": {
+			"coeLimited": "0"
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-label/lib/DefaultRubyParser.js",
+		"node_modules/@akashic-extension/akashic-label/lib/FragmentDrawInfo.js",
+		"node_modules/@akashic-extension/akashic-label/lib/Label.js",
+		"node_modules/@akashic-extension/akashic-label/lib/RubyParser.js",
+		"node_modules/@akashic-extension/akashic-label/lib/index.js",
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/Converter.js",
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/HoverPlugin.js",
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/index.js",
+		"node_modules/@akashic-extension/resolve-player-info/lib/FallbackDialog.js",
+		"node_modules/@akashic-extension/resolve-player-info/lib/index.js",
+		"node_modules/@akc29/akashictool4multi/lib/entry.js",
+		"node_modules/@akc29/akashictool4multi/lib/index.js"
+	],
+	"defaultLoadingScene": "compact"
+}
