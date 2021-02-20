@@ -32,7 +32,7 @@ npm install
 npm run build
 ```
 
-以下のコマンドで akashic-serve が起動されます。実行後、 `http://localhost:3300/` にアクセスしてください。
+以下のコマンドで akashic-cli-serve が起動されます。実行後、 `http://localhost:3300/` にアクセスしてください。
 
 ```
 npm start
