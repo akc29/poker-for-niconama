@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "@akashic-extension/akashic-label": "~3.0.0",
-    "@akc29/akashictool4multi": "^1.0.2"
+    "@akc29/akashictool4multi": "^1.1.0"
   }
 }

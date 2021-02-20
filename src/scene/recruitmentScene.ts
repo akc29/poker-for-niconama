@@ -71,8 +71,7 @@ export class RecruitmentScene extends BaseScene {
 					this.entry.enter({
 						id: g.game.selfId,
 						name: "配信者" + Math.floor(1000 * g.game.localRandom.generate())
-					});
-					this.entry.decideName(g.game.selfId);
+					}, true);
 				}
 			} else {
 				if (isJoined) {
@@ -263,8 +262,7 @@ export class RecruitmentScene extends BaseScene {
 			this.entry.enter({
 				id: g.game.selfId,
 				name: "匿名" + Math.floor(1000 * g.game.localRandom.generate())
-			});
-			this.entry.decideName(g.game.selfId);
+			}, true);
 		});
 		entryButton.append(entryLabel);
 		entity.append(entryButton);
